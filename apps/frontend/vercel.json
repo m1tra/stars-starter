@@ -1,7 +1,3 @@
 {
-  "projects": [
-    {
-      "root": "apps/frontend"
-    }
-  ]
+  "root": "apps/frontend"
 }
