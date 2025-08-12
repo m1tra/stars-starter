@@ -6,7 +6,7 @@ type Props = {
 
 export default function Background({children}: Props) {
   return (
-    <div className=' mx-auto  px-20 w-full '>
+    <div className=' mx-auto  md:px-5 lg:px-20 w-full '>
         <div 
             className='bg-gradient-to-br from-purple-600 to-orange-600 via-pink-600 pt-10 rounded-2xl'
             style={{
