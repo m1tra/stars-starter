@@ -1,0 +1,21 @@
+import React from 'react'
+
+type Props = {
+    children: React.ReactNode
+}
+
+export default function Background({children}: Props) {
+  return (
+    <div className=' mx-auto  px-20 w-full '>
+        <div 
+            className='bg-gradient-to-br from-purple-600 to-orange-600 via-pink-600 pt-10 rounded-2xl'
+            style={{
+                backgroundImage: `url('/noise.svg'), linear-gradient(to bottom right, #7c3aed, #f97316, #ec4899)`,
+                backgroundBlendMode: 'overlay',
+            }}
+            >
+            {children}
+        </div>
+    </div>
+  )
+}
