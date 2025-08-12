@@ -1,0 +1,27 @@
+{
+  "name": "stars-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "packageManager": "yarn@4.9.2",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.28.0",
+    "turbo": "^2.5.5"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "clean": "rm -rf node_modules && yarn",
+    "db:generate": "turbo run generate --filter=db",
+    "db:migrate": "turbo run migrate --filter=db"
+  }
+}

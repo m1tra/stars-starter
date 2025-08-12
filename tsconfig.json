@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@db/*": ["packages/db/src/*"]
+    },
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["apps/**/*", "packages/**/*"]
+}
