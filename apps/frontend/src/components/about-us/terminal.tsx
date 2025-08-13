@@ -6,7 +6,7 @@ export default function Terminal() {
     <div className='space-y-5'>
         <Text/>
         <div className="max-w-6xl w-full mx-auto ">
-          <div className="bg-gray-900 border-gray-800 border-t-1 border-x-1 pl-8 rounded-t-2xl">
+          <div className="bg-gray-900 border-gray-800 border-t-1 border-x-1 pl-8 rounded-t-2xl pr-2">
             <div className="flex gap-5 items-center py-6">
               <div className="flex space-x-1.5">
                 <div className="w-3 h-3 bg-red-500 rounded-full"></div>
