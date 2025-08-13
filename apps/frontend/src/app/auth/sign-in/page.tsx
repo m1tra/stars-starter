@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="h-screen flex items-center flex-col justify-center font-mono">
         <div 
-          className='bg-gradient-to-br max-w-6xl md:max-h-[700px] max-h-screen  h-full w-full items-center flex justify-center md:rounded-2xl'
+          className='bg-gradient-to-br max-w-6xl px-2 md:max-h-[700px] max-h-screen  h-full w-full items-center flex justify-center md:rounded-2xl'
           style={{
               backgroundImage: `url('/noise.svg'), linear-gradient(to bottom right, #7c3aed, #f97316, #ec4899)`,
               backgroundBlendMode: 'overlay',
