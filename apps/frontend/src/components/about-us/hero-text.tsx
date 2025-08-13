@@ -12,7 +12,7 @@ export default function Text() {
               <Badge key={index}>{item}</Badge>
             ))}
           </div>
-          <h1 className='text-4xl md:text-6xl font-bold'>Stars starter – One Codebase. Infinite Possibilities.</h1>
+          <h1 className='text-5xl md:text-6xl font-bold'>Stars starter – One Codebase. Infinite Possibilities.</h1>
         </div>
         <p className='text-gray-300'>A modern, production-ready monorepo setup for web, backend, mobile, and shared packages. Streamline development, share code effortlessly, and manage all your projects in one place.</p>
         <div className='flex gap-2'>
