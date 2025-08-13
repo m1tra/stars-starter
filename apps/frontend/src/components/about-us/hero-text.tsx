@@ -1,5 +1,6 @@
 import React from 'react'
-import Badge from '../ui/badge'
+import {Badge} from '../ui/badge'
+import Link from 'next/link'
 
 const stack = ['nestJS','nextJS','expo','prismaORM', 'TailwindCSS','shadcn/ui']
 
@@ -16,8 +17,8 @@ export default function Text() {
         </div>
         <p className='text-gray-300'>A modern, production-ready monorepo setup for web, backend, mobile, and shared packages. Streamline development, share code effortlessly, and manage all your projects in one place.</p>
         <div className='flex gap-2'>
-            <button className='py-2 px-5 border rounded-xl font-semibold'>Get Started</button>
-            <button className='py-2 px-5 border rounded-xl font-semibold '>GitHub</button>
+          <Link href="/auth/sign-in" className='py-2 px-5 border rounded-xl font-semibold '>Get Started</Link>
+          <Link href="https://github.com/m1tra/stars-starter" className='py-2 px-5 border rounded-xl font-semibold '>GitHub</Link>
         </div>
     </div>
   )
